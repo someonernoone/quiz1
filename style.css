@@ -1,0 +1,100 @@
+body{
+  margin: 0px;
+  background-color: aliceblue;
+}
+
+header{
+  margin: 0px;
+  background-color: crimson;
+  text-align: center;
+}
+
+h1{
+  margin: 0px;
+  padding: 7%;
+  color: orange;
+  
+}
+
+.navbar{
+  margin: 0px;
+  padding: 1.5%;
+  display: block;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 350;
+  font-size: 80%;
+}
+
+.main{
+  margin: 2%;
+}
+
+.quiz-name{
+  text-align: center;
+  margin: 8%;
+}
+
+.quesBox{
+  padding: 3%;
+  margin: 2%;
+  border: 1px solid darkgrey;
+  border-radius: 3%;
+  box-shadow: 5px 5px 10px grey;
+  background-color: whitesmoke;
+}
+
+.q-name{
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.answer{
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+
+.btn{
+  width: 100%;
+  padding: 3%;
+  background-color: white;
+  color: black;
+  margin-top: 2%;
+  border: 1px solid grey;
+  border-radius: 5%;
+  text-align: left;
+}
+
+.btn:hover:not([disabled=""]){
+  background-color: lightgreen;
+  color: black;
+}
+
+
+
+.next-btn{
+  padding: 2.5% 4.5%;
+  background-color: lightgreen;
+  margin-left: 40%;
+  border: 1px solid lightgreen;
+}
+
+.next-btn:hover{
+  background-color: green;
+  color: white;
+}
+
+.selected{
+  background-color: lightgreen;
+}
